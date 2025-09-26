@@ -103,7 +103,7 @@ else:
     print("Extremo (puede causar graves daños a gran escala)")
 
 
-# %% Ejercicio 10 (alternativa repetitiva, validación previa)
+# %% Ejercicio 10
 hemisferio = input("Hemisferio (N/S): ").upper()
 
 if hemisferio == "N" or hemisferio == "S":
