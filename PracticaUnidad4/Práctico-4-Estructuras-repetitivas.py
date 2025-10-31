@@ -74,7 +74,7 @@ print(suma)
 N = 100
 pares = impares = negativos = positivos = 0
 
-for _ in range(N):
+for i in range(N):
     n = int(input("Ingrese un número entero: "))
     if n % 2 == 0:
         pares += 1
