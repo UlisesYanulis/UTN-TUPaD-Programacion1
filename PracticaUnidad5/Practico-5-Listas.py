@@ -46,7 +46,7 @@ import random
 
 # Generar una lista con 15 números al azar entre 1 y 100
 numeros = []
-for _ in range(15):
+for i in range(15):
     numeros.append(random.randint(1, 100))
 
 # Crear una lista con los pares y otra con los impares
